@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^(.*)$ public/index.php
+
+
+
+#RewriteCond %{REQUEST_URI} ^/$
+#RewriteRule . index.php [L]
